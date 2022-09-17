@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6967e189d120d704698487dde19f212a, type: 3}
+  m_Name: Documentation
+  m_EditorClassIdentifier: 
+  info: "GATES\n-----------\n- has gate script component\n- Update button to update
+    text multiplier indicator\n- No need to set tags as gate has own trigger function
+    and calls functions on agent script \n\nSPLINE \n---------------\n- Update Mode
+    Set to fixed update\n- Trigger set in group 0, last two triggers must be finish
+    line checkpoints and Level Above step function\nsimultaniously\n\nSPLINE FOLLOWER\n-------------------\n-
+    On Level end reached, Call player controller.OnLevel Finished\n\nOBSTACLE\n------------\n-
+    Obstacle layer set to obstacle to negate collision with flock\n- Obstacle collider
+    set to obstacle tag to cause obstacle with character\n\nCHECKPOINT\n---------------\n-
+    Has script checkpoint component\n- checkpoint mesh and collider tagged floor\n-
+    has flag and trail\n- has feedbacks - On crossed to animaye and add sound when
+    character crosses\n\nDIAMOND\n----------\n-Tagged diamond, with sphere and mm
+    rotate script component\n\nLEVEL\n------------\n- Floors - Tagged Floor\n- Paths\n-
+    Gates\n-Platforms\n-Obstacles\n- Checkpoints\n- Collectables\n\n\n\n\n"

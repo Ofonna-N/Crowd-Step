@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57d0607cb4237f43a4323187798b676, type: 3}
+  m_Name: Resources Manager
+  m_EditorClassIdentifier: 
+  coinsManager: {fileID: 11400000, guid: ee0f5fe4c42cb6f48b370a2649d3ce5e, type: 2}
+  characterCat: {fileID: 11400000, guid: e8d62733f082ce94fabf7d0f7139f9da, type: 2}
+  levelCat: {fileID: 11400000, guid: 1f92ac59516071f4abd6aad1fd26a49b, type: 2}
+  settings: {fileID: 11400000, guid: 403b1028406063a4ab5be1ca9002cc85, type: 2}
